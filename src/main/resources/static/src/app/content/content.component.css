@@ -1,9 +1,11 @@
 #background {
   background: url(../images/back.jpg) no-repeat center top fixed;
-  /*/static/src/app/images/back.jpg*/
-  /*-webkit-background-image-size: cover;*/
-  /*-moz-background-image-size: cover;*/
-  /*-o-background-image-size: cover;*/
-  /*background-image-size: cover;*/
-  /*background-opacity: 0.75;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+}
+#title {
+  color: #890000;
+  font-weight: 600;
 }

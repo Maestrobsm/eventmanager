@@ -1,5 +1,5 @@
 import {Routes} from "@angular/router";
-import {ContentComponent} from "./content/content.component";
+import {InfoComponent} from "./info/info.component";
 
 export const appRoutes: Routes = [
   {
@@ -8,7 +8,7 @@ export const appRoutes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'landing',
-    component: ContentComponent
-  },
+    path: 'info',
+    component: InfoComponent
+  }
 ];
