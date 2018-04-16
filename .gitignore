@@ -1,4 +1,5 @@
 /target/
+/angular-frontend/node_modules/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -12,6 +13,7 @@
 
 ### IntelliJ IDEA ###
 .idea
+/node_modules/
 *.iws
 *.iml
 *.ipr
