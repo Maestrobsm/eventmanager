@@ -19,6 +19,8 @@ import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
 // import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LandingPageComponent } from './landing-page/index';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -34,7 +36,9 @@ import { LandingPageComponent } from './landing-page/index';
     HomeComponent,
     LoginComponent,
     RegisterComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   providers: [
     AuthGuard,
