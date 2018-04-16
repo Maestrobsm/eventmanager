@@ -4,6 +4,7 @@ import { FormsModule }    from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+
 // used to create fake backend
 import { fakeBackendProvider } from './_helpers/index';
 
@@ -17,10 +18,11 @@ import { AlertService, AuthenticationService, UserService } from './_services/in
 import { HomeComponent } from './home/index';
 import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
-// import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LandingPageComponent } from './landing-page/index';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ReCaptchaModule } from 'angular2-recaptcha';
+
 
 @NgModule({
   imports: [
@@ -28,7 +30,8 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     HttpClientModule,
     routing,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReCaptchaModule
   ],
   declarations: [
     AppComponent,
