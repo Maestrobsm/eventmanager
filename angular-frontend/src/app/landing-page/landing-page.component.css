@@ -1,8 +1,7 @@
-.jumbotron {
-  background: url(back.jpg) no-repeat center top fixed;
+jumbotron {
+
 }
 
-#title {
-  color: #890000;
-  font-weight: 600;
+.jumbotron {
+  background: url(back.jpg) no-repeat center top fixed;
 }
